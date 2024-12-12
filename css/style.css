@@ -18,12 +18,13 @@ html, body {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; 
     align-items: center;
     background-color: #698569;
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 2rem; 
 }
+
 
 nav a {
     color: #fff;
@@ -31,7 +32,6 @@ nav a {
     font-size: 1.2rem;
     padding: 1rem;
     transition: background-color 0.3s, color 0.3s;
-    float: right;
 }
 
 nav a:hover {
@@ -151,4 +151,26 @@ button:hover {
 .band-photo {
     width: 1100px;
     height: auto;
+}
+
+.logo img {
+    max-height: 50px; 
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem; 
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #eeff58;
 }
