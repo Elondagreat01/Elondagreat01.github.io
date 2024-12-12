@@ -1,0 +1,154 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Bona Nova SC';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #1D3611;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #698569;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    float: right;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #eeff58;
+    float: right;
+}
+
+nav a:first-child,
+nav a:nth-child(2),
+nav a:nth-child(3) {
+    background-color: #a30d46;
+}
+
+header, .welcome-section, .listen-album, footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listen-album {
+    margin-bottom: 20px;
+    background-color: #0b1f0b;
+}
+
+footer {
+    width: 100%;
+    background-color: #42021b;
+    padding: 1rem;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.merch-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem; 
+    width: 100%;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.merch-item {
+    text-align: center;
+    background-color: #0f1f03; 
+    border: 1px solid #717909;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.merch-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004d00;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #6c945f;
+}
+
+.photoshoot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.photos img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.light-font, .details-link {
+    color: #f7f1a4;
+    max-width: 150ch;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.yellow-font, .tracklist {
+    color: #fff56b;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.band-photo {
+    width: 1100px;
+    height: auto;
+}
